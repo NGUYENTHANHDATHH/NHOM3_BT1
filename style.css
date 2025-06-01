@@ -60,3 +60,10 @@ div.container a {
     text-decoration: none;
     color: #270d07;
 }
+.anh {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #270d07;
+    margin-right: 20px;
+}
