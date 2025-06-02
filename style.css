@@ -19,51 +19,43 @@ h1 {
 }
 
 .container {
+    height: 100vh;
     margin: 2px;
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #c7c5c5;
 }
 
-.container a {
-    width: 100%;
-    margin: 10px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-.infor {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.infor img {
-    width: 100px;
-    height: auto;
-    border-radius: 8px;
-    border: 2px solid #270d07;
-    margin-right: 20px;
-}
-
-div.name {
+td,
+th {
+    border: 1px solid #000000;
     padding: 10px;
-    margin: 10px;
+    text-align: center;
+    font-size: 20px;
 }
 
-div.container a {
+tr:nth-child(even),
+tr:nth-child(even) a {
+    background-color: #054c4c;
+    color: white;
+}
+
+tr a {
     text-decoration: none;
     color: #270d07;
 }
-.anh {
+
+img {
     width: 100px;
-    height: auto;
-    border-radius: 8px;
-    border: 2px solid #270d07;
-    margin-right: 20px;
+    height: 100px;
+    border-radius: 50%;
 }
