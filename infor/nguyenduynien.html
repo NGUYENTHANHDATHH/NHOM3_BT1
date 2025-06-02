@@ -9,10 +9,172 @@
 </head>
 
 <body>
-    <h1>Nhóm 3 -FITUP</h1>
-    <div class="main">
-
+    <header>
+        <div class="nav-bar">
+            <div class="nav-name">
+                <p>Nguyen Duy Nien</p>
+            </div>
+            <div class="nav-tab">
+                <nav><a href="">Home</a></nav>
+                <nav><a href="">About me</a></nav>
+                <nav><a href="">Contact</a></nav>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main>
+            <div class="intro">
+                <h2>Nguyen Duy Nien - Web developer</h2>
+            </div>
+            <div class="intro-img">
+                <img src="../picture/11dd7309d82977772e38.jpg" alt="">
+                <p>Xin chào,
+                    Tôi tên là Nguyễn Duy Niên, hiện đang là sinh viên chuyên ngành Công nghệ Thông tin tại trường Đại
+                    học
+                    Kinh
+                    tế Quốc dân. Tôi có niềm đam mê với lĩnh vực phát triển phần mềm và đặc biệt quan tâm đến lập trình
+                    web,
+                    phát triển game 2D bằng Unity, và trí tuệ nhân tạo. <br>
+                    Tôi luôn nỗ lực học hỏi, chủ động trong công việc nhóm và có khả năng tự học tốt. Trong tương lai,
+                    tôi
+                    mong muốn trở thành web-developer làm việc trong môi trường chuyên nghiệp, có cơ hội phát triển bản
+                    thân và đóng góp cho các dự án có ý nghĩa.
+                </p>
+            </div>
+            <table>
+                <caption>Thông Tin Cá Nhân - Nien</caption>
+                <tr>
+                    <th>Họ và tên</th>
+                    <td>Nguyễn Duy Niên</td>
+                </tr>
+                <tr>
+                    <th>Quê quán</th>
+                    <td>Thai Nguyen</td>
+                </tr>
+                <tr>
+                    <th>Hiện đang sống tại</th>
+                    <td>Ha Noi</td>
+                </tr>
+                <tr>
+                    <th>Ngành học</th>
+                    <td>Công nghệ Thông tin</td>
+                </tr>
+                <tr>
+                    <th>Trường học</th>
+                    <td>Đại học Kinh tế Quốc dân, Hà Nội</td>
+                </tr>
+                <tr>
+                    <th>Ước mơ</th>
+                    <td>Trở thành web-developer, làm game và AI</td>
+                </tr>
+                <tr>
+                    <th>Sở thích</th>
+                    <td>Chơi cờ vua, chạy bộ, lập trình, phát triển game</td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <div>
+                <h2>Nhom3-Fit</h2>
+            </div>
+        </footer>
     </div>
 </body>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .nav-bar {
+        background-color: rgb(8, 41, 30);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-tab {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .nav-tab nav :hover {
+        background-color: aliceblue;
+        color: black;
+    }
+
+    .nav-tab a {
+        color: aliceblue;
+        text-decoration: none;
+        display: block;
+        padding: 18px 20px;
+        font-size: 20px;
+    }
+
+    .nav-name p {
+        padding: 18px 10px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    /* Phan gioi thieu */
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 94vh;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    .intro {
+        text-align: center;
+        margin: 20px 20px;
+    }
+
+    .intro-img {
+        margin: 20px 20px;
+    }
+
+    img {
+        height: 350px;
+        float: left;
+        clip-path: ellipse(40% 50%);
+        shape-outside: ellipse(50% 50%);
+    }
+
+    table {
+        width: 60%;
+        margin: 50px auto;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+
+    th,
+    td {
+        border: 1px solid #999;
+        padding: 12px 20px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    caption {
+        caption-side: top;
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: rgb(8, 41, 30);
+        text-align: center;
+        color: aliceblue;
+    }
+</style>
 
 </html>
