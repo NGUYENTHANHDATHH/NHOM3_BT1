@@ -153,3 +153,36 @@ main {
 .contact a:hover {
     text-decoration: underline;
 }
+ .header {
+            background-color: rgb(185, 112, 173);
+            padding: auto;
+            text-align: center;
+        }
+        .topnav{
+            padding: auto:
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: rgb(12, 12, 11);
+            text-align: center;
+            padding: auto;
+            width: 120px;
+         
+           
+        }
+        .topnav a:hover {
+            background-color:blanchedalmond
+       
+        }
+        .column {
+            float: left;
+       width: 33,33%;
+       padding: 10px;
+       height: 300px;
+       background-color: bisque;
+        }
+        .row:after {
+display: table;
+clear: both;
+        }
